@@ -1,0 +1,1132 @@
+fileFormatVersion: 2
+guid: 5d31799e30f754145a0d5837766c9c34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6905662244140100511
+    second: warpgal-anim-sheet-alpha_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 9
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164d337d6c82a20a0800000000000000
+      internalID: -6905662244140100511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d56afb3b22ce5a4fbeac2330b7e81cd
+      internalID: -1138999015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52b92618d603b54d82ef380f24c94ba
+      internalID: 359920335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c811623b36d84aafc73f923c4b416
+      internalID: 1556409040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def083ba76c91904abe357ab657b50c9
+      internalID: -398026518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ada8aec3bbb07142b1287f85ea82cf8
+      internalID: 1452445761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12baeac1f90126045af274f44681ee15
+      internalID: 99734535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb8df3c631b26e44991da02c5932753
+      internalID: -1434187012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6545c3382be75084ab9922ae7032acb2
+      internalID: 150616713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c40cdb421feeb4b882f86df4da3acf
+      internalID: -2005751653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c738cb9d57dad064293dec9ee7504292
+      internalID: 1663840629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc06c706f7afb9469a4946be4186602
+      internalID: 208438862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0333be1aae0b7441ad61f2954ab8a4e
+      internalID: 1310140043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d0299c13e61044290cb725c46053c4
+      internalID: 400013671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3917f9b633fcd34496de73666330552
+      internalID: 1268550984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65eb6944b63aef46952833df23f4958
+      internalID: -145411530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f151846f8bb7c8c42839f4d00447c715
+      internalID: -200892407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d4e0d8351fdea4ab0eb2b51d43b559
+      internalID: 1505695016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33afc2a1b256fe648bf019f612cbdd48
+      internalID: -323305211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3378dba003ebcef4e913e8739b2f2756
+      internalID: 1808093848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3532d2d2dd7ea74d9b5723a38a63fe2
+      internalID: 784403497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f22a2b4842921a4184e734eae82a1e8
+      internalID: 1513494786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_43
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf52ff0689e785449310b7ec1bcc2ba
+      internalID: -1063953231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf9cb11b72f88143bb814cbe3cd410e
+      internalID: -729624351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2319bbca355474cb28a73e4b1cf223
+      internalID: 1619858852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48790d3964bcef0489b3dccdcb96f23a
+      internalID: 48165910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c469dedbe36bfbb4b83868fd1553fc3d
+      internalID: -1871825684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4aa51cd430dc84b861e7a860dbf9dd
+      internalID: 909909021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946c9af55caa2c044b36dc3b930a7a07
+      internalID: -383411571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f52dc91ae04ea41b0aaacc0f5d807d
+      internalID: 1871918898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd7c9e8b6302e542a2be23b589d40c7
+      internalID: 222102977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ea54d6a459601448797c92d35d8e20
+      internalID: 346773521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7eb04b0e696324fa1a7663f5e81894
+      internalID: 672702836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcbb35703ad6d34e88e6403a89fcb47
+      internalID: 718015075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9041a6ea179c79742b8e87e226c89341
+      internalID: -1628649172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf028e12ba34894488e3e7eaf9263ae1
+      internalID: 1593235336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee7d70532bf2414e8bb9e8eecb6cec4
+      internalID: 1980812865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2af989b3a1cd74f95ab71854c4a7d8
+      internalID: -1481670031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26294627d174c74ab57d6c54f92d8b4
+      internalID: -1853788978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f9411bdabbd084b9182cb0c9f5ea60
+      internalID: 590542516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warpgal-anim-sheet-alpha_85
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dbbdc5da9312441a98c473a676a0d7
+      internalID: -2058173217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a97f70df4153bd04a9e1ef7dbd9d3d83
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      warpgal-anim-sheet-alpha_0: -6905662244140100511
+      warpgal-anim-sheet-alpha_1: -1138999015
+      warpgal-anim-sheet-alpha_10: -1344349649
+      warpgal-anim-sheet-alpha_100: 358671370
+      warpgal-anim-sheet-alpha_101: 317354640
+      warpgal-anim-sheet-alpha_102: 686843161
+      warpgal-anim-sheet-alpha_103: 637523661
+      warpgal-anim-sheet-alpha_104: -1826842533
+      warpgal-anim-sheet-alpha_105: 116645482
+      warpgal-anim-sheet-alpha_106: 108601620
+      warpgal-anim-sheet-alpha_107: 1883748816
+      warpgal-anim-sheet-alpha_11: 650068307
+      warpgal-anim-sheet-alpha_12: 1452445761
+      warpgal-anim-sheet-alpha_13: 99734535
+      warpgal-anim-sheet-alpha_14: -1434187012
+      warpgal-anim-sheet-alpha_15: 150616713
+      warpgal-anim-sheet-alpha_16: -2005751653
+      warpgal-anim-sheet-alpha_17: 2056998108
+      warpgal-anim-sheet-alpha_18: 1704213610
+      warpgal-anim-sheet-alpha_19: -1673477775
+      warpgal-anim-sheet-alpha_2: 359920335
+      warpgal-anim-sheet-alpha_20: -1017750314
+      warpgal-anim-sheet-alpha_21: -631357323
+      warpgal-anim-sheet-alpha_22: 1869768510
+      warpgal-anim-sheet-alpha_23: 1595394235
+      warpgal-anim-sheet-alpha_24: 1663840629
+      warpgal-anim-sheet-alpha_25: 208438862
+      warpgal-anim-sheet-alpha_26: 1310140043
+      warpgal-anim-sheet-alpha_27: 400013671
+      warpgal-anim-sheet-alpha_28: 1268550984
+      warpgal-anim-sheet-alpha_29: -2119723816
+      warpgal-anim-sheet-alpha_3: 1556409040
+      warpgal-anim-sheet-alpha_30: -1768010887
+      warpgal-anim-sheet-alpha_31: 2024358247
+      warpgal-anim-sheet-alpha_32: -1944146431
+      warpgal-anim-sheet-alpha_33: -1792787599
+      warpgal-anim-sheet-alpha_34: 747790969
+      warpgal-anim-sheet-alpha_35: 922405286
+      warpgal-anim-sheet-alpha_36: -145411530
+      warpgal-anim-sheet-alpha_37: -200892407
+      warpgal-anim-sheet-alpha_38: 1505695016
+      warpgal-anim-sheet-alpha_39: -323305211
+      warpgal-anim-sheet-alpha_4: -398026518
+      warpgal-anim-sheet-alpha_40: 1808093848
+      warpgal-anim-sheet-alpha_41: 784403497
+      warpgal-anim-sheet-alpha_42: 1513494786
+      warpgal-anim-sheet-alpha_43: -1063953231
+      warpgal-anim-sheet-alpha_44: -729624351
+      warpgal-anim-sheet-alpha_45: 1619858852
+      warpgal-anim-sheet-alpha_46: 48165910
+      warpgal-anim-sheet-alpha_47: 1640402336
+      warpgal-anim-sheet-alpha_48: -1871825684
+      warpgal-anim-sheet-alpha_49: 909909021
+      warpgal-anim-sheet-alpha_5: 1683343235
+      warpgal-anim-sheet-alpha_50: -383411571
+      warpgal-anim-sheet-alpha_51: 1871918898
+      warpgal-anim-sheet-alpha_52: 222102977
+      warpgal-anim-sheet-alpha_53: 229895090
+      warpgal-anim-sheet-alpha_54: -1659655893
+      warpgal-anim-sheet-alpha_55: 1854634949
+      warpgal-anim-sheet-alpha_56: -444689307
+      warpgal-anim-sheet-alpha_57: 1333659202
+      warpgal-anim-sheet-alpha_58: -1277582473
+      warpgal-anim-sheet-alpha_59: -1415084148
+      warpgal-anim-sheet-alpha_6: 2131281246
+      warpgal-anim-sheet-alpha_60: 346773521
+      warpgal-anim-sheet-alpha_61: 672702836
+      warpgal-anim-sheet-alpha_62: 718015075
+      warpgal-anim-sheet-alpha_63: -1628649172
+      warpgal-anim-sheet-alpha_64: 1593235336
+      warpgal-anim-sheet-alpha_65: 486146011
+      warpgal-anim-sheet-alpha_66: -615180347
+      warpgal-anim-sheet-alpha_67: -426021400
+      warpgal-anim-sheet-alpha_68: 475657047
+      warpgal-anim-sheet-alpha_69: 1116132756
+      warpgal-anim-sheet-alpha_7: 848467326
+      warpgal-anim-sheet-alpha_70: -985164760
+      warpgal-anim-sheet-alpha_71: -2038623669
+      warpgal-anim-sheet-alpha_72: 1980812865
+      warpgal-anim-sheet-alpha_73: -1481670031
+      warpgal-anim-sheet-alpha_74: -1853788978
+      warpgal-anim-sheet-alpha_75: 1560894593
+      warpgal-anim-sheet-alpha_76: 1727904170
+      warpgal-anim-sheet-alpha_77: 1454207424
+      warpgal-anim-sheet-alpha_78: -1573039426
+      warpgal-anim-sheet-alpha_79: -1922663429
+      warpgal-anim-sheet-alpha_8: -1949154645
+      warpgal-anim-sheet-alpha_80: -486898239
+      warpgal-anim-sheet-alpha_81: 898478168
+      warpgal-anim-sheet-alpha_82: -821359523
+      warpgal-anim-sheet-alpha_83: 1215866580
+      warpgal-anim-sheet-alpha_84: 590542516
+      warpgal-anim-sheet-alpha_85: -2058173217
+      warpgal-anim-sheet-alpha_86: 341342559
+      warpgal-anim-sheet-alpha_87: 1644771551
+      warpgal-anim-sheet-alpha_88: 952001099
+      warpgal-anim-sheet-alpha_89: 302370588
+      warpgal-anim-sheet-alpha_9: -1105546233
+      warpgal-anim-sheet-alpha_90: -1897895853
+      warpgal-anim-sheet-alpha_91: -1517267340
+      warpgal-anim-sheet-alpha_92: -726038886
+      warpgal-anim-sheet-alpha_93: 1201036323
+      warpgal-anim-sheet-alpha_94: -287067840
+      warpgal-anim-sheet-alpha_95: 890096040
+      warpgal-anim-sheet-alpha_96: -1077976713
+      warpgal-anim-sheet-alpha_97: 198701280
+      warpgal-anim-sheet-alpha_98: -165281841
+      warpgal-anim-sheet-alpha_99: -1778320651
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
