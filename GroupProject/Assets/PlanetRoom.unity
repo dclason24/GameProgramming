@@ -1353,7 +1353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7189747086577748315, guid: 3cac5ef7c62c0264f88b5e89a85cb8c1, type: 3}
       propertyPath: spriteFacesLeft
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7189747086577748315, guid: 3cac5ef7c62c0264f88b5e89a85cb8c1, type: 3}
       propertyPath: startFacingRight
@@ -5993,6 +5993,10 @@ PrefabInstance:
     - target: {fileID: 6299674349509255214, guid: 3cac5ef7c62c0264f88b5e89a85cb8c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7189747086577748315, guid: 3cac5ef7c62c0264f88b5e89a85cb8c1, type: 3}
+      propertyPath: startFacingRight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
