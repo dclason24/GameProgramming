@@ -16,6 +16,7 @@ public class GameFlow : MonoBehaviour
     private TextMeshProUGUI status;
     private PlayerInventory inventory;
     private PlayerHealth player;
+    private TMP_FontAsset uiFont;
 
     private string message;
     private float messageUntil;
@@ -40,6 +41,16 @@ public class GameFlow : MonoBehaviour
 
         DontDestroyOnLoad(host);
         SceneManager.sceneLoaded += instance.OnSceneLoaded;
+    }
+
+    private void Awake()
+    {
+        uiFont = Resources.Load<TMP_FontAsset>("Fonts/MenuFont SDF");
+
+        if (uiFont == null)
+        {
+            uiFont = TMP_Settings.defaultFontAsset;
+        }
     }
 
     public static bool LoadScene(string scene)
@@ -87,8 +98,7 @@ public class GameFlow : MonoBehaviour
             : float.NegativeInfinity;
 
         foreach (var map in
-                 FindObjectsByType<UnityEngine.Tilemaps.TilemapCollider2D>(
-                     FindObjectsSortMode.None))
+            FindObjectsByType<UnityEngine.Tilemaps.TilemapCollider2D>())
         {
             fallLimit = Mathf.Min(fallLimit, map.bounds.min.y - 10f);
         }
@@ -169,7 +179,7 @@ public class GameFlow : MonoBehaviour
                 "Controls",
                 new Vector2(1, 1),
                 new Vector2(-18, -18),
-                new Vector2(410, 82)
+                new Vector2(430, 90)
             );
 
             Label(
@@ -184,10 +194,10 @@ public class GameFlow : MonoBehaviour
                 "Objective",
                 new Vector2(0.5f, 0),
                 new Vector2(0, 18),
-                new Vector2(760, 52)
+                new Vector2(760, 60)
             );
 
-            status = Label(objective, "", 20);
+            status = Label(objective, "", 22);
         }
         else if (scene == MenuScene)
         {
@@ -199,9 +209,6 @@ public class GameFlow : MonoBehaviour
                 new Vector2(760, 140)
             );
 
-            help.GetComponent<Image>().color =
-                new Color(0.10f, 0.02f, 0.15f, 0.9f);
-
             TextMeshProUGUI instructions = Label(
                 help,
                 "HOW TO PLAY\n" +
@@ -211,15 +218,6 @@ public class GameFlow : MonoBehaviour
             );
 
             instructions.lineSpacing = 10f;
-            instructions.color = new Color(1f, 0.9f, 1f);
-
-            TMP_FontAsset menuFont =
-                Resources.Load<TMP_FontAsset>("Fonts/MenuFont SDF");
-
-            if (menuFont != null)
-            {
-                instructions.font = menuFont;
-            }
 
             StartMenuScript menu = FindAnyObjectByType<StartMenuScript>();
 
@@ -241,10 +239,10 @@ public class GameFlow : MonoBehaviour
                 "Escape complete",
                 new Vector2(0.5f, 0),
                 new Vector2(0, 24),
-                new Vector2(580, 150)
+                new Vector2(580, 160)
             );
 
-            TextMeshProUGUI title = Label(card, "You escaped!", 28);
+            TextMeshProUGUI title = Label(card, "You escaped!", 30);
             title.rectTransform.anchorMin = new Vector2(0, 0.62f);
 
             Button replay = AddButton(
@@ -288,13 +286,13 @@ public class GameFlow : MonoBehaviour
         rect.sizeDelta = size;
 
         Image image = panel.GetComponent<Image>();
-        image.color = new Color(0.025f, 0.045f, 0.09f, 0.92f);
+        image.color = new Color(0.10f, 0.02f, 0.15f, 0.9f);
         image.raycastTarget = false;
 
         return rect;
     }
 
-    private static TextMeshProUGUI Label(
+    private TextMeshProUGUI Label(
         Transform parent,
         string text,
         float size)
@@ -314,17 +312,17 @@ public class GameFlow : MonoBehaviour
 
         TextMeshProUGUI label = textObject.AddComponent<TextMeshProUGUI>();
 
-        label.font = TMP_Settings.defaultFontAsset;
+        label.font = uiFont;
         label.text = text;
         label.fontSize = size;
-        label.color = Color.white;
+        label.color = new Color(1f, 0.9f, 1f);
         label.alignment = TextAlignmentOptions.Center;
         label.raycastTarget = false;
 
         return label;
     }
 
-    private static Button AddButton(
+    private Button AddButton(
         Transform parent,
         string text,
         Vector2 anchor,
@@ -342,7 +340,7 @@ public class GameFlow : MonoBehaviour
 
         Image image = rect.GetComponent<Image>();
         image.raycastTarget = true;
-        image.color = new Color(0.08f, 0.3f, 0.44f);
+        image.color = new Color(0.35f, 0.06f, 0.5f);
 
         Button button = rect.gameObject.AddComponent<Button>();
         button.targetGraphic = image;
