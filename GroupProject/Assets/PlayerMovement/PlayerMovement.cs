@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
 
     private static readonly int SpeedHash = Animator.StringToHash("Speed");
-    private static readonly int IsGroundedHash = Animator.StringToHash("isGrounded");
+    private static readonly int IsGroundedHash = Animator.StringToHash("IsGrounded");
 
     private void Awake()
     {
@@ -40,21 +40,12 @@ public class PlayerController : MonoBehaviour
 
     private void OnDisable()
     {
-        horizontalInput = 0f;
-        jumpRequested = false;
         moveAction.action.Disable();
         jumpAction.action.Disable();
     }
 
     private void Update()
     {
-        if (Time.timeScale == 0f)
-        {
-            horizontalInput = 0f;
-            jumpRequested = false;
-            return;
-        }
-
         horizontalInput = moveAction.action.ReadValue<float>();
 
         if (jumpAction.action.WasPressedThisFrame() && isGrounded)
@@ -73,11 +64,11 @@ public class PlayerController : MonoBehaviour
 
         rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
 
-        if (jumpRequested && isGrounded)
+        if (jumpRequested)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            jumpRequested = false;
         }
-        jumpRequested = false;
     }
 
     private void OnDrawGizmosSelected()
