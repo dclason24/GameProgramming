@@ -8,7 +8,7 @@ public class Shield : MonoBehaviour
 
     [Header("Regeneration")]
     [Tooltip("Seconds without taking any hit before regeneration starts.")]
-    [SerializeField] float regenDelay = 3f;
+    [SerializeField] float regenDelay = 5f;
 
     [Tooltip("Seconds to regenerate 1 hit.")]
     [SerializeField] float regenTimePerHit = 2f;
