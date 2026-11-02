@@ -136,9 +136,37 @@ public static class PlayModeSmoke
         Check(Find<StartMenuScript>() != null, "Menu is visible/active");
         if (!Application.isBatchMode) ScreenCapture.CaptureScreenshot("/private/tmp/game-menu.png");
         yield return 0.5f;
+        var instructionsButton = GameObject.Find("Instructions").GetComponent<Button>();
+        instructionsButton.onClick.Invoke();
+        yield return 0.1f;
+        Check(GameObject.Find("Instructions window") != null, "Instructions opens");
+        Check(Find<StartMenuScript>().GetComponentInChildren<Button>().interactable == false,
+            "Instructions prevents starting game behind window");
+        GameObject.Find("Close").GetComponent<Button>().onClick.Invoke();
+        Check(GameObject.Find("Instructions window") == null, "Instructions closes");
+        Check(Find<StartMenuScript>().GetComponentInChildren<Button>().interactable,
+            "Play is enabled after closing instructions");
+        Check(Resources.Load<TMP_FontAsset>("Fonts/MenuFont SDF") != null,
+            "Custom UI font is included");
         Click("PlayGame");
         yield return 1f;
         Check(SceneManager.GetActiveScene().name == GameFlow.LevelScene, "Play button loads PlanetRoom");
+        var enemies = UnityEngine.Object.FindObjectsByType<EnemyPatrol>()
+            .OrderBy(e => e.transform.position.x).ToArray();
+        Check(enemies.Length == 2, "Two enemies are present");
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        Check(enemyLayer >= 0 && enemies.All(e => e.gameObject.layer == enemyLayer)
+            && Physics2D.GetIgnoreLayerCollision(enemyLayer, enemyLayer),
+            "Enemies ignore each other");
+        Check(enemies[0].GetComponent<Rigidbody2D>().linearVelocity.x > 0
+            && enemies[1].GetComponent<Rigidbody2D>().linearVelocity.x < 0,
+            "Enemies start moving toward each other");
+        Check(enemies[0].GetComponent<SpriteRenderer>().flipX
+            && !enemies[1].GetComponent<SpriteRenderer>().flipX,
+            "Enemies face toward each other");
+        Check(enemies.All(e => e.GetComponent<Animator>().runtimeAnimatorController != null
+            && e.GetComponent<Animator>().GetFloat("Speed") > 0),
+            "Enemy walking animation receives speed");
         var player = Find<PlayerController>();
         var body = player.GetComponent<Rigidbody2D>();
         float x = body.position.x;
