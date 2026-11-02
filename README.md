@@ -2,55 +2,43 @@
 
 ## Group Project
 
-This project is a 2D action-adventure game inspired by the exploration and combat
-of games such as *HELLDIVERS*. The player crash-lands on an alien planet and must
-survive three connected areas:
+This project is currently a 2D platforming game. From the start menu, the player
+enters the **Planet Room**, moves through the level, avoids patrolling enemies,
+collects a golden key, and uses it to unlock the exit door. Reaching the door
+loads the end screen and completes the game.
 
-1. **Crash-landed ship** - An indoor starting area where the player learns the
-   controls and searches for a way out.
-2. **Planet surface** - An outdoor area with different gravity and enemies.
-3. **Cave** - A dangerous final area containing a worm boss.
+## Current Gameplay
 
-The player uses a gun aimed with the mouse to fight enemies and progress through
-the rooms. Doors require keys, encouraging the player to explore each area.
+- Move left and right with **A/D** or the arrow keys
+- Jump with **W**, **Space**, or **Up**
+- Collect the golden key before attempting the exit
+- Avoid enemies that deal contact damage
+- Manage three health points and a three-hit shield
+- The shield regenerates after the player avoids damage for a short time
+- Pause with **Esc** or the controller Start button
+- Replay the level or return to the main menu after escaping
 
-## Planned Mechanics
+The current build contains a start menu, one playable level (`PlanetRoom`), and
+an end screen (`EndRoom`). The project uses placeholder and temporary art in
+several areas.
 
-- Three connected rooms: ship, planet surface, and cave
-- Different gravity settings for indoor and outdoor areas
-- Mouse aiming and gun-based combat
-- Metal Gear-style dialogue interjections
-- Regenerating shield
-- Non-regenerating health bar
-- Locked doors that require keys
-- Worm boss encounter in the cave
-- Upgrade options, including:
-  - Stronger shots
-  - Double jump
-  - Multishot
+## Planned Features
 
-## Development Plan
+The following features are design goals, not part of the current playable build:
 
-The first playable version will focus on:
-
-1. Building the three room layouts
-2. Adding player movement and camera behavior
-3. Implementing aiming and basic shooting
-4. Adding keys and locked doors
-5. Adding enemies, shields, and health
-6. Implementing gravity changes between areas
-7. Creating the cave and worm boss encounter
-8. Adding dialogue and player upgrades
-
-Placeholder shapes and temporary art will be used while the core gameplay is
-being developed.
+- Crash-landed ship and cave areas
+- Gun-based combat and mouse aiming
+- Different gravity settings between areas
+- Dialogue interjections
+- Worm boss encounter
+- Player upgrades such as stronger shots, double jump, and multishot
 
 ## Art References and Attribution
 
 The project uses or references work by [Emcee Flesher on
 OpenGameArt](https://opengameart.org/users/emcee-flesher).
 
-The planned worm boss is based on the
+The planned worm boss may be based on the
 [Super Dead Gunner / Cyber Tooth
 Enemy](https://opengameart.org/content/super-dead-gunner-cyber-tooth-enemy)
 asset. Final use of third-party assets will follow their individual licenses
