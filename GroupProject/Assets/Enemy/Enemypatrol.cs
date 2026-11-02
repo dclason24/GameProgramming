@@ -45,12 +45,6 @@ public class EnemyPatrol : MonoBehaviour
 
     void OnEnable() => StartCoroutine(PatrolLoop());
 
-    void OnDisable()
-    {
-        StopAllCoroutines();
-        if (rb != null) SetVelocityX(0f);
-    }
-
     IEnumerator PatrolLoop()
     {
         while (true)
