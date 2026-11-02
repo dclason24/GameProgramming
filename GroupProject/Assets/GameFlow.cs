@@ -203,61 +203,22 @@ public class GameFlow : MonoBehaviour
         else if (scene == MenuScene)
         {
             RectTransform help = Panel(
-                parent, "Instructions window", new Vector2(0.5f, 0.5f),
-                Vector2.zero, new Vector2(820, 300));
+                parent,
+                "Instructions",
+                new Vector2(0.5f, 0),
+                new Vector2(0, 35),
+                new Vector2(760, 140)
+            );
 
             TextMeshProUGUI instructions = Label(
                 help,
                 "HOW TO PLAY\n" +
                 "Find the key, avoid the enemies, and reach the door.\n" +
                 "Move: A/D or arrows   Jump: Space/W/Up   Pause: Esc",
-                24);
-            instructions.rectTransform.anchorMin = new Vector2(0, 0.3f);
+                24
+            );
+
             instructions.lineSpacing = 10f;
-
-            Button instructionsButton = null;
-            Button closeButton = AddButton(
-                help, "Close", new Vector2(0.5f, 0.16f), () =>
-                {
-                    help.gameObject.SetActive(false);
-                    EventSystem.current.SetSelectedGameObject(
-                        instructionsButton.gameObject);
-                });
-
-            // A full-screen backdrop blocks clicks on the menu while help is open.
-            RectTransform backdrop = Panel(
-                parent, "Instructions backdrop", new Vector2(0.5f, 0.5f),
-                Vector2.zero, Vector2.zero);
-            backdrop.anchorMin = Vector2.zero;
-            backdrop.anchorMax = Vector2.one;
-            backdrop.offsetMin = Vector2.zero;
-            backdrop.offsetMax = Vector2.zero;
-            backdrop.GetComponent<Image>().color = new Color(0, 0, 0, 0.65f);
-            backdrop.GetComponent<Image>().raycastTarget = true;
-            help.SetParent(backdrop, false);
-
-            StartMenuScript menuController = FindAnyObjectByType<StartMenuScript>();
-            Button playButton = menuController != null
-                ? menuController.GetComponentInChildren<Button>() : null;
-
-            closeButton.onClick.AddListener(() =>
-            {
-                backdrop.gameObject.SetActive(false);
-                if (playButton != null) playButton.interactable = true;
-            });
-
-            instructionsButton = AddButton(
-                parent, "Instructions", new Vector2(0.5f, 0), () =>
-                {
-                    backdrop.gameObject.SetActive(true);
-                    help.gameObject.SetActive(true);
-                    backdrop.SetAsLastSibling();
-                    if (playButton != null) playButton.interactable = false;
-                    EventSystem.current.SetSelectedGameObject(closeButton.gameObject);
-                });
-            instructionsButton.GetComponent<RectTransform>().anchoredPosition =
-                new Vector2(0, 65);
-            backdrop.gameObject.SetActive(false);
 
             StartMenuScript menu = FindAnyObjectByType<StartMenuScript>();
 

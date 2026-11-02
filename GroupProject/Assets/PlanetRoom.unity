@@ -1353,7 +1353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7189747086577748315, guid: 3cac5ef7c62c0264f88b5e89a85cb8c1, type: 3}
       propertyPath: spriteFacesLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7189747086577748315, guid: 3cac5ef7c62c0264f88b5e89a85cb8c1, type: 3}
       propertyPath: startFacingRight
