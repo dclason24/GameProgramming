@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("Invincibility")]
     [Tooltip("Seconds of invincibility after any damage (including when the shield absorbs it).")]
-    [SerializeField] float invincibleTime = 5f;
+    [SerializeField] float invincibleTime = 3f;
 
     [Tooltip("Blink interval during invincibility.")]
     [SerializeField] float blinkInterval = 0.1f;
@@ -38,7 +38,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        if (IsInvincible || Health <= 0) return;
+        if (amount <= 0 || IsInvincible || Health <= 0 || Time.timeScale == 0f) return;
 
         bool absorbed = shield != null && shield.Absorb();
 
@@ -61,12 +61,11 @@ public class PlayerHealth : MonoBehaviour
     {
         IsInvincible = true;
 
-        float t = 0f;
-        while (t < invincibleTime)
+        float endTime = Time.time + invincibleTime;
+        while (Time.time < endTime)
         {
             if (sprite != null) sprite.enabled = !sprite.enabled;
-            yield return new WaitForSeconds(blinkInterval);
-            t += blinkInterval;
+            yield return new WaitForSeconds(Mathf.Min(Mathf.Max(0.01f, blinkInterval), endTime - Time.time));
         }
 
         if (sprite != null) sprite.enabled = true;
@@ -76,6 +75,6 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         OnDied?.Invoke();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        GameFlow.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

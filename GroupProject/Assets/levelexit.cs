@@ -1,24 +1,20 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; 
 
 public class LevelExit : MonoBehaviour
 {
-    public string sceneToLoad; 
+    public string sceneToLoad;
+    bool loading;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (loading) return;
+        var inventory = collision.GetComponentInParent<PlayerInventory>();
+        if (inventory == null || !inventory.CompareTag("Player")) return;
+        if (!inventory.hasKey)
         {
-            PlayerInventory inventory = collision.GetComponent<PlayerInventory>();
-            
-            if (inventory != null && inventory.hasKey == true)
-            {
-                SceneManager.LoadScene(sceneToLoad);
-            }
-            else
-            {
-                Debug.Log("The door is locked. You need a key!");
-            }
+            GameFlow.Notify("Door locked. Collect the golden key first.");
+            return;
         }
+        loading = GameFlow.LoadScene(sceneToLoad);
     }
 }
