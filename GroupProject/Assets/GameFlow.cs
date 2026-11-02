@@ -184,8 +184,9 @@ public class GameFlow : MonoBehaviour
 
             Label(
                 controls,
-                "A/D or arrows: Move   W/Space/Up: Jump\n" +
-                "Esc / controller Start: Pause",
+                "A/D or arrows: Move\n" +
+                "W/Space/Up: Jump\n" +
+                "Esc:Pause/Resume",
                 19
             );
 
@@ -213,7 +214,7 @@ public class GameFlow : MonoBehaviour
                 help,
                 "HOW TO PLAY\n" +
                 "Find the key, avoid the enemies, and reach the door.\n" +
-                "Move: A/D or arrows   Jump: Space   Pause: Esc",
+                "Move: A/D or arrows   Jump: Space/W/Up   Pause: Esc",
                 24
             );
 
